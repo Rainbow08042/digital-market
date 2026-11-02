@@ -1,0 +1,330 @@
+[
+  {
+    "id": "employee-01",
+    "name": "能自动化操作浏览器的员工",
+    "description": "一个开源浏览器智能体框架，让 AI 通过自然语言理解网页并完成搜索、表单填写、预约等任务。项目提供 Agent、CLI、示例、测试和 Docker 配置，支持多种大模型及本地或云端浏览器，适合快速构建网页自动化应用",
+    "sourceRepository": "https://github.com/browser-use/browser-use",
+    "sourceMarker": 1,
+    "sourceRow": 2
+  },
+  {
+    "id": "employee-02",
+    "name": "面向agent的自动化爬虫工具",
+    "description": "Firecrawl 是面向大模型和智能体的开源网页数据平台，能够自动搜索、抓取、解析和批量处理网站内容，将复杂网页转换为干净的 Markdown、JSON 和截图等结构化数据。它支持动态网页、网页交互、站点地图、MCP 与 API 接入，适合知识库构建、RAG、智能搜索、数据采集和自动化研究等场景",
+    "sourceRepository": "https://github.com/firecrawl/firecrawl",
+    "sourceMarker": 1,
+    "sourceRow": 3
+  },
+  {
+    "id": "employee-03",
+    "name": "企业资料管家员工",
+    "description": "以 Paperless-ngx 为基础，将企业散落在电脑、网盘和聊天工具中的合同、通知、说明书、票据和项目资料统一归档，并通过分类、标签、关键词和全文检索快速查找。经过团队部署和商业化改造后，可以按照企业的资料类型、部门结构和使用习惯定制字段、标签、检索方式和资料归档流程，形成适合中小企业使用的文档管理与知识检索工具，减少资料丢失、重复查找和信息孤岛问题。",
+    "sourceRepository": "https://github.com/paperless-ngx/paperless-ngx",
+    "sourceMarker": 1,
+    "sourceRow": 4
+  },
+  {
+    "id": "employee-04",
+    "name": "多智能体互动课堂",
+    "description": "OpenMAIC 是清华大学 MAIC 团队开源的多智能体互动课堂平台，可将主题、文档或学习材料快速生成完整课程。平台支持 AI 教师与同学实时讨论，自动制作幻灯片、测验、白板讲解、语音课堂、模拟实验和项目式学习内容，并可导出 PPTX 或 HTML，适用于教学、培训与自主学习。",
+    "sourceRepository": "https://aithub.com/THU-MAIC/OpenMAIC",
+    "sourceMarker": "数字助教",
+    "sourceRow": 5
+  },
+  {
+    "id": "employee-05",
+    "name": "企业知识库员工",
+    "description": "以 LlamaIndex 为基础，连接企业文档、数据库、API 和业务系统，构建知识库、RAG 问答、数据分析和知识型 Agent。支持数据接入、索引、检索、工具调用和工作流编排。",
+    "sourceRepository": "http://github.com/run-llama/llama_index",
+    "sourceMarker": 1,
+    "sourceRow": 6
+  },
+  {
+    "id": "employee-06",
+    "name": "自托管AI会计员工",
+    "description": "Klaudia 是一个面向财务团队的自托管 AI 会计助手，支持通过自然语言查询和分析结构化账本，执行对账、金额统计、账龄与差异分析，并从收据、发票图片或 PDF 中提取财务数据。系统结合 LLM、PostgreSQL 和 MCP 工具链，在写入账本前进行权限、版本和人工审批检查，适合财务数据录入、内部账本管理和受控自动化。",
+    "sourceRepository": "https://github.com/Yudhyy/Klaudia",
+    "sourceMarker": 1,
+    "sourceRow": 7
+  },
+  {
+    "id": "employee-07",
+    "name": "企业智能客服助手",
+    "description": "以 AgentDesk 为基础，面向官网、SaaS 产品和企业内部服务场景，搭建 AI 与人工协同的智能客服系统。支持 FAQ、文档等知识库接入、向量索引与 RAG 检索，结合 OpenAI-compatible 大模型生成知识约束回答，并通过 Web Widget、Open API 等方式接入业务系统。对于知识不足、复杂或需要人工确认的问题，可自动转入客服工作台，支持会话分配、转接、人工回复及工单创建与跟踪，适合私有化部署和二次开发。",
+    "sourceRepository": "https://github.com/huabeitech/agent-desk",
+    "sourceMarker": 1,
+    "sourceRow": 8
+  },
+  {
+    "id": "employee-08",
+    "name": "网页变化监测员工",
+    "description": "以 changedetection.io 为基础，将企业需要关注的商品价格、库存状态、政策公告、招投标信息和竞品页面纳入统一监测。经过部署和业务化配置后，可以按照设定周期自动检查网页变化，并通过邮件、Webhook 等方式发送提醒，适合电商运营、采购、市场和行政等场景，帮助企业减少人工巡检和信息遗漏。",
+    "sourceRepository": "https://github.com/dgtlmoon/changedetection.io",
+    "sourceMarker": 1,
+    "sourceRow": 9
+  },
+  {
+    "id": "employee-09",
+    "name": "财务票据处理员工",
+    "description": "以 DocuMind 为基础，将发票、收据、PDF 和扫描件中的票据编号、日期、金额、供应商和银行账户等信息自动提取出来，并生成结构化 JSON 和字段置信度。经过部署和业务化改造后，可以用于财务报销、采购对账、票据录入和档案归档等场景，帮助企业减少人工录入和重复核对。",
+    "sourceRepository": "https://github.com/Ayush21-AI/DocuMind",
+    "sourceMarker": 1,
+    "sourceRow": 10
+  },
+  {
+    "id": "employee-10",
+    "name": "AI 热点网站",
+    "description": "AIHOT 是我做的一个 AI 热点网站。它每天从一批信源里收资料，用大模型先筛一遍、再独立打两次分，挑出真正值得看的，写成中文标题和摘要；把不同来源说的同一件事聚成一个事件，按有多少人在说排出热点；每天早上出一份日报。",
+    "sourceRepository": "KKKKhazix/AIHOT: 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+    "sourceMarker": 1,
+    "sourceRow": 11
+  },
+  {
+    "id": "employee-11",
+    "name": "AI旅行社",
+    "description": "这款Streamlit应用是一款由AI驱动的旅行代理，利用OpenAI GPT-4o生成个性化旅行行程。它自动化了研究、规划和组织梦想假期的过程，让你轻松探索令人兴奋的目的地。这款Streamlit应用是一款由AI驱动的旅行代理，利用OpenAI GPT-4o生成个性化旅行行程。它自动化了研究、规划和组织梦想假期的过程，让你轻松探索令人兴奋的目的地。\n\n特色\n研究并发现令人兴奋的旅游目的地、活动和住宿\n根据你想旅行的天数定制你的行程\n利用GPT-4o的力量生成智能且个性化的旅行计划\n下载你的行程作为日历（.ics）文件，导入Google日历、苹果日历或其他日历应用",
+    "sourceRepository": "Awesome-LLM-apps/starter_ai_agents/ai_travel_agent 在主线 ·Shubhamsaboo/awesome-llm-apps",
+    "sourceMarker": 1,
+    "sourceRow": 12
+  },
+  {
+    "id": "employee-12",
+    "name": "面向 AI Agent 的可编辑视频生产引擎",
+    "description": "这个项目适合被理解为“面向 AI Agent 的可编辑视频生产引擎”，而不是一个开箱即用的视频 SaaS。参考视频或创意 brief → Agent 分析 → 生成 SVML/SVS 工作流 → 调用图像、视频、语音、转写服务 → Chromium/HyperFrames 渲染 → 保存可复用的构建结果。",
+    "sourceRepository": "https://github.com/hypit-ai/hypit",
+    "sourceMarker": 1,
+    "sourceRow": 13
+  },
+  {
+    "id": "employee-13",
+    "name": "一站式 AI 短视频生成工具",
+    "description": "只需提供视频主题或关键词，即可自动生成视频脚本、匹配素材、生成字幕和背景音乐，并合成高清短视频",
+    "sourceRepository": "harry0703/MoneyPrinterTurbo: 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+    "sourceMarker": 1,
+    "sourceRow": 14
+  },
+  {
+    "id": "employee-14",
+    "name": "网页研究与采集员工",
+    "description": "以 Crawl4AI 为基础，将网页自动抓取、正文清洗、Markdown/JSON 提取、结构化数据生成和 MCP 调用结合起来，适合定制竞品监测、政策检索、行业资料收集和网页研究报告等员工。项目采用 Apache-2.0，并有署名要求。",
+    "sourceRepository": "https://github.com/unclecode/crawl4ai",
+    "sourceMarker": 1,
+    "sourceRow": 15
+  },
+  {
+    "id": "employee-15",
+    "name": "动态网页采集员工",
+    "description": "以 scrapy-playwright 为基础，把 Scrapy 的批量采集能力和 Playwright 的 JavaScript 页面渲染结合起来，适合采集需要登录、滚动加载、异步请求和复杂交互的网站。项目采用 BSD-3-Clause。",
+    "sourceRepository": "https://github.com/scrapy-plugins/scrapy-playwright",
+    "sourceMarker": "融合",
+    "sourceRow": 16
+  },
+  {
+    "id": "employee-16",
+    "name": "演示文稿制作员工",
+    "description": "根据主题、上传文档或已有 PowerPoint 模板自动生成演示文稿，支持内容编辑、模板调整，导出可编辑的 PPTX 或 PDF。适用于工作汇报、项目方案、产品介绍和培训材料制作，支持自托管和 API 集成。",
+    "sourceRepository": "https://github.com/presenton/presenton",
+    "sourceMarker": 1,
+    "sourceRow": 17
+  },
+  {
+    "id": "employee-17",
+    "name": "保密会议纪要员工（Meetily）",
+    "description": "采集麦克风和系统音频，自动将会议内容转写成文字并生成 AI 摘要，支持使用本地模型处理。适用于企业例会、客户沟通、项目讨论等场景，帮助减少人工记录和会后整理工作。",
+    "sourceRepository": "https://github.com/Zackriya-Solutions/meetily",
+    "sourceMarker": 1,
+    "sourceRow": 18
+  },
+  {
+    "id": "employee-18",
+    "name": "行业研究员（GPT Researcher）",
+    "description": "岗位：研究员/行业分析师。把研究问题拆成规划、并行检索、网页执行和带引用的报告生成流程。 工作流程：研究目标→规划问题→并行抓取/筛选→综合引用→导出 PDF/Word/PPT/Excel。 业务产出：带来源的研究报告、摘要、表格和演示材料。",
+    "sourceRepository": "https://github.com/assafelovic/gpt-researcher",
+    "sourceMarker": 1,
+    "sourceRow": 19
+  },
+  {
+    "id": "employee-19",
+    "name": "金融研究员与投研分析师（FinRobot）",
+    "description": "岗位：金融研究员/投研分析师。围绕股票、公司和金融问题调用行情、新闻、SEC/年报与分析链生成研究工件。 工作流程：金融问题→数据连接器→估值/风险分析→图表与研究报告；交易和投资决定必须人工。 业务产出：估值表、金融分析、公司研究报告和可视化。",
+    "sourceRepository": "https://github.com/AI4Finance-Foundation/FinRobot",
+    "sourceMarker": 1,
+    "sourceRow": 20
+  },
+  {
+    "id": "employee-20",
+    "name": "个人 CFO 与家庭财务分析师（Personal Finance CFO Agent）",
+    "description": "岗位：个人 CFO/家庭财务分析师。读取经用户批准的本地账单，完成分类、核对、现金流、预算差异和月度 CFO 报告。 工作流程：上传 CSV/Excel/PDF→分类复核→数学自检→现金流/风险/目标分析→生成 PDF/图表；不自动连接银行。 业务产出：月度 CFO packet、PDF 报告、图表、风险登记和行动项。",
+    "sourceRepository": "https://github.com/Pmadge/personal-finance-cfo-agent",
+    "sourceMarker": 1,
+    "sourceRow": 21
+  },
+  {
+    "id": "employee-21",
+    "name": "法律研究员与法律问答助理（LawGlance）",
+    "description": "岗位：法律研究员/法律问答助理。基于法律文档和 RAG 检索回答法律问题，并提供法源线索和解释。 工作流程：问题/文档输入→检索法律语料→生成带上下文回答→人工核验与文书加工。 业务产出：法律研究答案、引用线索和分析草稿。",
+    "sourceRepository": "https://github.com/lawglance/lawglance",
+    "sourceMarker": 1,
+    "sourceRow": 22
+  },
+  {
+    "id": "employee-22",
+    "name": "合同与诉讼准备助理（Legal Assistant Agent）",
+    "description": "岗位：合同与诉讼准备助理。面向纠纷分析、合同审查、法律研究、谈判准备和文书报告交付的 AI 法律工作台。 工作流程：目标输入→选择对话/记忆/案件工作台→检索与推演→生成 Markdown/PDF 文档→律师复核。 业务产出：结构化法律分析、合同批注、谈判准备和可归档报告。",
+    "sourceRepository": "https://github.com/KevinKE93/Legal-Assistant_agent",
+    "sourceMarker": 1,
+    "sourceRow": 23
+  },
+  {
+    "id": "employee-23",
+    "name": "多渠道客服与售后专员（AI Customer Support Agent）",
+    "description": "岗位：多渠道客服/售后专员。面向 Web、Gmail 和 WhatsApp 的知识库客服，使用语义搜索生成回复并在必要时移交人工。 工作流程：消息输入→知识库语义检索→渠道语气生成→人工接管判断→回复/记录。 业务产出：多渠道客服回复、检索证据、升级记录和帮助台数据。",
+    "sourceRepository": "https://github.com/jawwad-ali/ai-customer-support-agent",
+    "sourceMarker": 1,
+    "sourceRow": 24
+  },
+  {
+    "id": "employee-24",
+    "name": "招聘筛选员与招聘协调员（CandiSift）",
+    "description": "岗位：招聘筛选员/招聘协调员。上传简历与职位描述后，解析、去标识、硬过滤、排序、偏差审计并生成候选人摘要。 工作流程：简历/JD 输入→解析与 PII stripping→硬过滤→语义匹配→persona agents→综合→招聘人员复核。 业务产出：候选人清单、匹配分数、技能缺口、重复检测和推荐摘要。",
+    "sourceRepository": "https://github.com/confused-ai/candisift",
+    "sourceMarker": 1,
+    "sourceRow": 25
+  },
+  {
+    "id": "employee-25",
+    "name": "个性化学习导师（LLMTutor）",
+    "description": "岗位：个性化学习导师/课程助教。以学习目标、知识状态和对话为输入，提供解释、练习、反馈和学习路径。 工作流程：学习目标→诊断与讲解→练习/测验→反馈→进度记录和下一步建议。 业务产出：学习计划、解释、题目、反馈和进度记录。",
+    "sourceRepository": "https://github.com/SwissLearningAnalytics/LLMTutor",
+    "sourceMarker": 1,
+    "sourceRow": 26
+  },
+  {
+    "id": "employee-26",
+    "name": "临床听写员与医疗记录助理（OpenScribe）",
+    "description": "岗位：临床听写员/医疗记录助理。录音或文本输入后生成结构化临床记录、SOAP note 和可编辑文档。 工作流程：临床对话录音/转写→结构化摘要→SOAP/病历草稿→医生审阅签署。 业务产出：临床文书草稿、SOAP note、摘要和可编辑记录。",
+    "sourceRepository": "https://github.com/sammargolis/OpenScribe",
+    "sourceMarker": 1,
+    "sourceRow": 27
+  },
+  {
+    "id": "employee-27",
+    "name": "临床试验匹配助理（TrialThread）",
+    "description": "岗位：临床试验匹配/研究护士助理。把患者自然语言和临床试验注册信息对齐，用通俗语言解释可能匹配与不匹配的原因。 工作流程：患者目标/病史输入→ClinicalTrials.gov 检索→资格条件解析→匹配解释→人工/医生进一步确认。 业务产出：试验候选清单、适配解释、排除原因和链接。",
+    "sourceRepository": "https://github.com/ericporres/trialthread",
+    "sourceMarker": 1,
+    "sourceRow": 28
+  },
+  {
+    "id": "employee-28",
+    "name": "视频制作助理与剪辑师（OpenMontage）",
+    "description": "岗位：视频制作助理/剪辑师。代理化视频制作系统，从脚本与素材出发完成镜头选择、剪辑、字幕和导出。 工作流程：脚本/素材输入→素材理解→镜头编排→剪辑/字幕/配乐工具→渲染→人工审片导出。 业务产出：视频粗剪、字幕、镜头表和可交付视频文件。",
+    "sourceRepository": "https://github.com/calesthio/OpenMontage",
+    "sourceMarker": 1,
+    "sourceRow": 29
+  },
+  {
+    "id": "employee-29",
+    "name": "高管办公室与行政运营协作者（Chief of Staff）",
+    "description": "岗位：高管办公室/行政运营协作者。本地多智能体个人 Chief of Staff，含研究、沟通、笔记、代码和会议捕获流水线。 工作流程：任务输入→路由到研究/沟通/笔记/会议/代码专员→读取本地资料→生成邮件/报告/会议纪要→本地索引。 业务产出：邮件草稿、短报告、会议纪要、知识库更新和 GitHub issue 上下文。",
+    "sourceRepository": "https://github.com/xaviervasques/chief-of-staff",
+    "sourceMarker": 1,
+    "sourceRow": 30
+  },
+  {
+    "id": "employee-30",
+    "name": "翻译员与本地化编辑（Translation Agent）",
+    "description": "岗位：翻译员/本地化编辑。用反思工作流完成初译、质量建议和二次改写，支持术语和风格约束。 工作流程：源文/目标语言→初译→反思与建议→术语/风格修订→输出译文。 业务产出：可交付译文、修订建议和术语一致性结果。",
+    "sourceRepository": "https://github.com/andrewyng/translation-agent",
+    "sourceMarker": 1,
+    "sourceRow": 31
+  },
+  {
+    "id": "employee-31",
+    "name": "社交媒体运营专员（Social Media Agent）",
+    "description": "岗位：社交媒体运营专员。从 URL 内容生成 Twitter/LinkedIn 文案，提供认证、人工编辑和接受/拒绝流程。 工作流程：URL/活动目标→抓取与摘要→平台改写→HITL 编辑→人工批准后发布。 业务产出：多平台社交文案、排期草稿和发布结果。",
+    "sourceRepository": "https://github.com/langchain-ai/social-media-agent",
+    "sourceMarker": 1,
+    "sourceRow": 32
+  },
+  {
+    "id": "employee-32",
+    "name": "视频翻译与配音员工",
+    "description": "上传视频、音频或字幕，配置目标语言，完成转写、字幕翻译、配音及字幕嵌入，输出翻译视频、字幕或配音",
+    "sourceRepository": "https://github.com/jianchang512/pyvideotrans",
+    "sourceMarker": null,
+    "sourceRow": 33
+  },
+  {
+    "id": "employee-33",
+    "name": "长视频切片员工",
+    "description": "粘贴视频链接，选择平台和语言，完成素材获取、转写/字幕、内容分析、片段选择、竖横版包装和导出，输出适配不同平台的短视频及发布文案",
+    "sourceRepository": "https://github.com/zhouxiaoka/autoclip",
+    "sourceMarker": null,
+    "sourceRow": 34
+  },
+  {
+    "id": "employee-34",
+    "name": "小红书图文生成员工",
+    "description": "输入主题，生成封面、内容页、总结页大纲，允许编辑大纲，批量生成图片，下载整套图文；可生成标题、正文及标签",
+    "sourceRepository": "https://github.com/HisMax/RedInk",
+    "sourceMarker": null,
+    "sourceRow": 35
+  },
+  {
+    "id": "employee-35",
+    "name": "AI 销售客户管理员工",
+    "description": "开源 CRM，除了客户、联系人、商机和销售流程管理外，当前项目已经加入 AI Agents、AI 对话、工作流和逻辑函数能力，可以在 CRM 内构建客户总结、线索处理、销售提醒和自动化跟进。",
+    "sourceRepository": "https://github.com/twentyhq/twenty",
+    "sourceMarker": null,
+    "sourceRow": 36
+  },
+  {
+    "id": "employee-36",
+    "name": "代码执行员工",
+    "description": "这是一个面向开发和数据处理任务的代码执行 Agent，可以根据自然语言生成并运行代码，处理文件、调用命令行工具、分析数据和完成自动化脚本任务。支持终端、SDK 和 ACP 接入，许可证为 Apache-2.0。",
+    "sourceRepository": "https://github.com/OpenInterpreter/open-interpreter",
+    "sourceMarker": null,
+    "sourceRow": 37
+  },
+  {
+    "id": "employee-37",
+    "name": "电脑操作员工",
+    "description": "这是一个面向桌面应用和计算机操作的开源 Agent 项目，可以结合屏幕观察、鼠标键盘控制和任务规划完成桌面交互，适合文件处理、桌面软件操作和重复性办公任务。属于计算机操作员工，许可证为 MIT。需要重点验证操作系统兼容性和权限隔离。",
+    "sourceRepository": "https://github.com/OpenAdaptAI/OpenAdapt",
+    "sourceMarker": null,
+    "sourceRow": 38
+  },
+  {
+    "id": "employee-38",
+    "name": "智行中枢",
+    "description": "智行中枢，是让 AI 有能力行动，也让组织能够放心授权和管理这些行动的平台",
+    "sourceRepository": "https://github.com/weiyaoxxy/company-workbuddy",
+    "sourceMarker": null,
+    "sourceRow": 39
+  },
+  {
+    "id": "employee-39",
+    "name": "经营分析员",
+    "description": "围绕门店与企业日常经营，整理销售、退货、库存和成本资料，统一指标口径，形成经营日报、门店对比与异常跟踪清单。保留数据来源和更新时间，由业务负责人复核差异并决定后续行动。",
+    "sourceRepository": null,
+    "sourceMarker": null,
+    "sourceRow": null
+  },
+  {
+    "id": "employee-40",
+    "name": "网站安全分析师",
+    "description": "在明确授权的网站与资产范围内，协助整理资产清单、组织自动化安全检测与渗透测试、归纳问题证据和风险等级，跟踪整改与复测。输出问题清单、整改安排与复测记录，检测范围和实施操作由授权负责人管理。",
+    "sourceRepository": null,
+    "sourceMarker": null,
+    "sourceRow": null
+  },
+  {
+    "id": "employee-41",
+    "name": "采购比价员",
+    "description": "围绕采购需求整理供应商询价与报价资料，对齐规格、计量单位、税费、交期和服务条款，标记缺失字段与差异，形成可追溯的供应商比较表和待确认事项。供应商选择、议价及采购承诺由采购负责人决定。",
+    "sourceRepository": null,
+    "sourceMarker": null,
+    "sourceRow": null
+  }
+]

@@ -1,0 +1,25 @@
+node_modules/
+dist/
+.playwright-cli/
+output/
+*.log
+
+# Local design originals and conversation archives; web assets live in public/.
+assets/drafts/
+assets/generated/
+assets/source/
+*.zip
+
+# Local credentials and machine-specific configuration.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+.ssh/
+.DS_Store
+Thumbs.db

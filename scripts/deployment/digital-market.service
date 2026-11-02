@@ -1,0 +1,35 @@
+[Unit]
+Description=Digital Market isolated static website
+After=network.target
+
+[Service]
+Type=simple
+DynamicUser=yes
+RuntimeDirectory=digital-market
+LogsDirectory=digital-market
+UMask=0022
+ExecStartPre=/usr/sbin/nginx -t -p /run/digital-market/ -c /etc/digital-market/nginx.conf
+ExecStart=/usr/sbin/nginx -p /run/digital-market/ -c /etc/digital-market/nginx.conf -g "daemon off;"
+ExecReload=/bin/kill -s HUP $MAINPID
+KillSignal=SIGQUIT
+TimeoutStopSec=20
+Restart=on-failure
+RestartSec=3
+MemoryMax=96M
+CPUQuota=50%
+TasksMax=16
+LimitNOFILE=4096
+NoNewPrivileges=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectSystem=strict
+ProtectHome=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictSUIDSGID=yes
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+CapabilityBoundingSet=
+
+[Install]
+WantedBy=multi-user.target
