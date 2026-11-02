@@ -19,6 +19,7 @@ export default function CeoWorkspace() {
     </div>
     <div className="ceo-responsibilities"><p><strong>FDE 部署</strong><span>连接业务、组织与生产系统，配置数据口径、访问权限和同步规则。</span></p><p><strong>人工职责</strong><span>员工复核异常，负责人跟进事项，CEO 决定经营动作。</span></p></div>
     <div className="ceo-footer"><p>让信息少一层转述，让判断多一份依据。</p><Link to="/employees">认识参与协作的数字员工<ArrowUpRight size={18} /></Link></div>
+    <a className="text-link" href="/ceo-workspace/CEO工作台.html">进入 CEO 工作台<ArrowUpRight size={18} /></a>
   </div>;
 }
 

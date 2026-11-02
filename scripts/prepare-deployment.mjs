@@ -16,7 +16,7 @@ await mkdir(site, { recursive: true });
 
 // Ship only the current site's runtime files, excluding unused artwork, drafts,
 // offline reference archives, source files, dependencies, and local credentials.
-for (const entry of ['index.html', 'favicon.svg', 'assets', 'fonts', 'media/digital-market']) {
+for (const entry of ['index.html', 'favicon.svg', 'assets', 'fonts', 'media/digital-market' ,'ceo-workspace']) {
   await cp(path.join(root, 'dist', entry), path.join(site, entry), { recursive: true });
 }
 
